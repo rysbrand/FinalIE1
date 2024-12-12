@@ -1,0 +1,338 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/purplebutterfly.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 40%;
+}
+
+.display-1 {
+    font-size: 4em;
+}
+h1, .display-1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.bg-blue {
+    background-color: #3b5998;
+}
+
+.text-white {
+    color: #f5f5f5;
+}
+
+.lead {
+    color: #ddd;
+}
+
+.btn {
+    border: none;
+    padding: 1em 2em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+ }
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #f5a623;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f5a623;
+}
+
+.two-columns {
+    background-color: #1c1e22;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.text-column {
+    margin-bottom: 2rem;
+}
+
+.text-column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text-column p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+footer {
+    background-color: #2c3e50;
+    padding: 2em;
+    color: #f5f5f5;
+}
+
+footer a {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/*Contact Form*/
+.contact-form {
+    background-color: #1c1e22;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.contact-form h2 {
+    color: #f5a623;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.contact-form .form-control {
+    background-color: #2c2f33;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+.contact-form .form-control::placeholder {
+    color: #cccccc;
+}
+
+.contact-form .btn-primary {
+    background-color: #365194;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #4a6fb3;
+}
+
+/*Gallery*/
+.gallery {
+    background-color: #1c1e22;
+    color: #ffffff; 
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #f5a623;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.gallery p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-item img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+    background: transparent;
+    border: none; 
+}
+
+#lightboxImage {
+    border-radius: 0.5rem;
+}
+
+/*About*/
+.about {
+    background-color: #f7f9fc;
+    color: #333; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.about h2 {
+    color: #365194;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.team img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.team h5 {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.team p {
+    color: #666;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f0f4fa; /* Soft blue-gray background */
+    color: #365194; /* Brand color for text */
+}
+
+.testimonials h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #365194;
+    margin-bottom: 1rem;
+}
+
+.carousel-inner {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.carousel-item h5 {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/*Showcase*/
+.project-showcase body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .project-showcase .projects {
+    padding-top: 30px;
+  }
+  
+  .project-showcase .projects .card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-showcase .projects .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-showcase .projects .card-body {
+    background-color: #fff;
+  }
+  
+  .project-showcase .projects .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-showcase .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+    
+    .welcome {
+        top: 20%;
+        left: 5%;
+        padding: 2em;
+    }
+    .two-columns .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .text-column {
+        margin-bottom: 0;
+        flex: 0 0 48%;
+    }
+    
+    .text-column h2 {
+        font-size: 1.75rem;
+    }
+    
+    .text-column p {
+        font-size: 1.1rem;
+    }
+    /*Project Showcase*/
+    .project-showcase .row {
+        flex-direction: row;
+        gap: 2rem;
+    }
+        
+    .project-showcase .col-md-4 {
+    flex: 1;
+   }
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+
+    .hero {
+        background-position: left;
+    }
+    
+    .display-1 {
+        font-size: 8em;
+    }
+    nav a {
+        padding-left: 4%;
+    }
+
+    .text-column h2 {
+        font-size: 2rem;
+    }
+    
+    .text-column p {
+        font-size: 1.25rem;
+    }
+}
